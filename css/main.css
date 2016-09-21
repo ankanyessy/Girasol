@@ -112,8 +112,44 @@ h5 {
 /*Contacto*/
 .contacto {
 	background-image: url(../img/Trabaja.jpg);
-	background-size: 100% 100%;
+	background-size: 100vw 100vh;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	width: 100%;
 	height: 600px;
+	margin: 0;
+	
 }
+
+.contacto .bg-contacto {
+	background: rgba(101, 115, 35, 0.5);
+	height: 600px;
+}
+
+.contacto .formulario {
+	width: 100%;
+	text-align: center;
+}
+
+.formulario form {
+	width: 100%;
+	margin: auto;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.formulario input {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0 4%;
+
+}
+
+.bg-contacto h6 {
+	color: white;
+	margin-top: 8%;
+	font-size: 20px;	
+}
+
+
+
