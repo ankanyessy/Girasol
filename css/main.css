@@ -1,0 +1,119 @@
+/*Generales*/
+@font-face
+{
+   font-family: "Bravo SC";
+   src: url("bravo.eot");
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Bravo SC";
+}
+
+h2 {
+	margin: 10% 0 5% 0;
+}
+
+h2, h4, h5, .parrafo p a {
+	color: rgb(0, 152, 116);
+}
+
+.e2biz .parrafo {
+	margin: 0 20%;
+}
+
+.e2biz .parrafo p {
+	font-size: 16px;
+}
+
+.servicios {
+	background-color: rgb(248, 249, 249);
+	height: 700px;
+}
+
+.servicios .imagen {
+	background-color: white;
+}
+
+.servicios .imagen p {
+	text-align: center;
+}
+
+.servicios img, .proyectos img {
+	width: 100%;
+	height: 200px;
+}
+
+
+
+
+.navbar-header a img {
+	height: 50px;
+	width: 100%;
+}
+
+h5 {
+	font-family: "Bravo SC";
+}
+
+
+/*Inicio*/
+.inicio {
+	background-image: url(../img/Hero-image.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+}
+
+.inicio .fondo {
+	background-color: #F5F1F1;
+	opacity: 0.8;
+	width: 50%;
+	height: 100px;
+	margin: 20% 30%;
+}
+
+.inicio .fondo hr {
+	color: #45B19B;
+	margin: 10%;
+}
+
+
+
+/*Quienes Somos*/
+
+
+
+
+
+/*Proyectos y Clientes*/
+.project {
+	background-image: url(../img/Proyectos-clientes.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+}
+
+
+
+
+
+
+
+/*Trabaja con Nosotros*/
+
+
+
+
+
+/*Contacto*/
+.contacto {
+	background-image: url(../img/Trabaja.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+}
