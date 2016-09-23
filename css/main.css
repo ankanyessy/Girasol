@@ -57,6 +57,22 @@ h5 {
 	font-family: "Bravo SC";
 }
 
+.footer {
+	background-color: #7E7C7C;
+	color: #fff;
+}
+
+.footer .redes-sociales {
+	text-align: center;
+	float: left;
+	margin-top: 20px;
+}
+
+.redes-sociales .red i {
+	margin-left: 15px;
+	font-size: 20px;
+}
+
 
 /*Inicio*/
 .inicio {
@@ -83,6 +99,27 @@ h5 {
 
 
 /*Quienes Somos*/
+
+.seguir {
+	background-color: #188DCA;
+	color: #fff;
+	padding: 40px 20px;
+}
+
+.seguir .sociales {
+	display: inline-block;
+}
+
+.seguir .sociales .redes {
+	background-color: #fff;
+	float: left;
+	padding: 10px;
+	margin-left: 10px;
+}
+
+.redes span i {
+	color: #188DCA;
+}
 
 
 
