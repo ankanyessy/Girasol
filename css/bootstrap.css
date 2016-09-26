@@ -5921,7 +5921,7 @@ button.close {
   bottom: 0;
   left: 0;
   z-index: 1040;
-  background-color: #000;
+  background-color: #024959;
 }
 .modal-backdrop.fade {
   filter: alpha(opacity=0);
@@ -5929,7 +5929,7 @@ button.close {
 }
 .modal-backdrop.in {
   filter: alpha(opacity=50);
-  opacity: .5;
+  opacity: .8;
 }
 .modal-header {
   padding: 15px;

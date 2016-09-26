@@ -1,21 +1,20 @@
 /*Generales*/
-@font-face
-{
-   font-family: "Bravo SC";
-   src: url("bravo.eot");
+@font-face {
+	font-family: BravoSC;
+	src: url(BravoSC.otf);
 }
 
 body {
 	margin: 0;
 	padding: 0;
-	font-family: "Bravo SC";
+	font-family: BravoSC;
 }
 
 h2 {
 	margin: 10% 0 5% 0;
 }
 
-h2, h4, h5, .parrafo p a {
+h2, h4, h5, h6, .parrafo p a {
 	color: rgb(0, 152, 116);
 }
 
@@ -48,10 +47,7 @@ h2, h4, h5, .parrafo p a {
 
 
 
-.navbar-header a img {
-	height: 50px;
-	width: 100%;
-}
+
 
 h5 {
 	font-family: "Bravo SC";
@@ -62,15 +58,28 @@ h5 {
 	color: #fff;
 }
 
-.footer .redes-sociales {
+.redes-sociales {
 	text-align: center;
 	float: left;
 	margin-top: 20px;
 }
 
-.redes-sociales .red i {
+.redes-sociales .red i, .redes span i {
 	margin-left: 15px;
 	font-size: 20px;
+}
+
+/*Header*/
+/*header {
+	width: 100%;
+	max-width: 1280px;
+	background-color: #024959;
+	margin: 20px auto;
+}*/
+
+.navbar-header a img {
+	height: 50px;
+	width: 100%;
 }
 
 
@@ -100,25 +109,87 @@ h5 {
 
 /*Quienes Somos*/
 
+
+.descripcion {
+	text-align: center;box-sizing: 
+	border-box;
+	margin: 0 18px;
+}
+
+.descripcion .centrado {
+	margin: 0 20px;
+	color: #024959;
+}
+
+.bg-plome {
+	background-color: #F5F4F4;
+}
+
+.bg-plome .equipo-grupo {
+	width: 100%;
+	float: left;
+	padding: 20px;
+	background-size: 100% 100%;
+}
+
+.equipo img {
+	width: 100%;
+	height: 150px;
+	padding: 15px;
+}
+
+.equipo .cargo {
+	padding: 15px;
+	left: 12%;
+}
+
+.equipo .cargo h5 {
+	color: #999999;
+}
+
+.team .img-team img {
+	height: 300px;
+	width: 100%;
+	size: 100% 100%;
+	margin-bottom: 30px;
+}
+
+.team .detalle-cargo {
+	margin: 0 13%;
+}
+
+.team .detalle-team {
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.team .detalle-team  .parrafo-team {
+	margin: 5% 10%;
+}
+
 .seguir {
 	background-color: #188DCA;
 	color: #fff;
-	padding: 40px 20px;
+	padding: 20px;
 }
 
 .seguir .sociales {
 	display: inline-block;
+	text-align: center;
 }
 
 .seguir .sociales .redes {
 	background-color: #fff;
 	float: left;
-	padding: 10px;
-	margin-left: 10px;
+	padding: 7px;
+	margin-left: 15px;
+	width: 25%;
 }
 
 .redes span i {
 	color: #188DCA;
+	text-align: center;
+	margin-right: 20px;
 }
 
 
@@ -126,12 +197,48 @@ h5 {
 
 
 /*Proyectos y Clientes*/
-.project {
+
+.titulo-project {
 	background-image: url(../img/Proyectos-clientes.jpg);
-	background-size: 100% 100%;
 	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 200px;
 	width: 100%;
-	height: 600px;
+}
+
+.titulo-project .fondo {
+	background-color: rgba(251, 238, 238, 0.8);
+	width: 50%;
+	height: 70px;
+	margin: 3% 22%;
+}
+
+.titulo-project .fondo .divider {
+	background-color: : rgba(16, 129, 181, 0.88);
+}
+
+.titulo-project .fondo h5 {
+	color: black;
+}
+
+.proyecto {
+	margin: 7% 5% 3% 5%;
+}
+
+.proyecto .primer-proyecto img {
+	width: 100%;
+	background-size: 100% 100%;
+	height: 300px;
+	background-color: green;
+}
+
+.proyecto .primer-proyecto .clientes {
+
+}
+
+.pagination .pagination-list {
+	width: 100%;
+	margin: 0 7%;
 }
 
 
