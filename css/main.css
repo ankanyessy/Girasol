@@ -58,6 +58,7 @@ h5 {
 	color: #fff;
 }
 
+
 .redes-sociales {
 	text-align: center;
 	float: left;
@@ -69,21 +70,13 @@ h5 {
 	font-size: 20px;
 }
 
-/*Header*/
-/*header {
-	width: 100%;
-	max-width: 1280px;
-	background-color: #024959;
-	margin: 20px auto;
-}*/
 
 .navbar-header a img {
 	height: 50px;
 	width: 100%;
 }
 
-
-/*Inicio*/
+/*Index*/
 .inicio {
 	background-image: url(../img/Hero-image.jpg);
 	background-size: 100% 100%;
@@ -105,9 +98,47 @@ h5 {
 	margin: 10%;
 }
 
+.proyectos-clientes {
+	height: 600px;
+}
+
+.proyectos-clientes .analisis {
+	background-color: green;
+	height: 120px;
+	width: 100%;
+	float: left;
+}
+
+.proyectos-clientes .analisis img {
+	width: 100%;
+	height: 100px;
+	background-size: 100% 100%;
+}
+
 
 
 /*Quienes Somos*/
+
+.seguir {
+	background-color: #188DCA;
+	color: #fff;
+	padding: 40px 20px;
+}
+
+.seguir .sociales {
+	display: inline-block;
+}
+
+.seguir .sociales .redes {
+	background-color: #fff;
+	float: left;
+	padding: 10px;
+	margin-left: 10px;
+}
+
+.redes span i {
+	color: #188DCA;
+}
 
 
 .descripcion {
