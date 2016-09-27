@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>E2biz</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="js/main.js">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="http://themes.static.1001fonts.net/netefx/cache/d/4/d41d8cd98f00b204e9800998ecf8427e.css">
   </head>
   <body>
 
@@ -39,12 +40,12 @@
     
     <div class="container contacto">
       <div class="row bg-contacto">
-        <h6 class="text-center">CONT&Aacute;CTANOS</h6>
+        <h6 class="text-center">CONTCTANOS</h6>
         <div class="col-lg-4 col-lg-offset-4 formulario">
-          <form class="form-horizontal" role="form">
+          <form class="form-horizontal" id="formulario" role="form" action="datos.php" method="post">
             <div class="row form-group">
               <div class="col-sx-12 col-sm-12 col-md-10">
-                <input type="name" class="form-control" id="name" placeholder="Nombre">
+                <input type="name" class="form-control" id="name" placeholder="Nombre"><br>
               </div>
             </div>
             <div class="form-group">
@@ -66,8 +67,9 @@
               </div>
             </div>
             <div class="form-group">
-              <div class="col-sx-12 col-sm-12 col-md-10 text-center">
-                <button type="submit" class="btn btn-primary">ENVIAR</button>
+              <div class="col-sx-12 col-sm-12 col-md-10 text-center"> 
+                <input type="radio" name="Departamento" value="yancalonzo@gmail.com" id="Departamento_0">
+                <button type="submit" class="btn btn-primary" id="benviar"><a href="#">ENVIAR</a></button>
               </div>
             </div>
           </form>
