@@ -9,6 +9,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/datos.php">
     <link type="text/css" rel="stylesheet" href="http://themes.static.1001fonts.net/netefx/cache/d/4/d41d8cd98f00b204e9800998ecf8427e.css">
   </head>
   <body>
@@ -45,12 +46,12 @@
           <form class="form-horizontal" id="formulario" role="form" action="datos.php" method="post">
             <div class="row form-group">
               <div class="col-sx-12 col-sm-12 col-md-10">
-                <input type="name" class="form-control" id="name" placeholder="Nombre"><br>
+                <input type="name" class="form-control" name="nombre" id="name" placeholder="Nombre" required="Completa campo"><br>
               </div>
             </div>
             <div class="form-group">
               <div class="col-sx-12 col-sm-12 col-md-10">
-                <input type="email" class="form-control" id="email" placeholder="Correo Electrónico">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Correo Electrónico" required="Completa campo">
               </div>
             </div>
             <div class="form-group cv-enviar">
@@ -58,12 +59,12 @@
                 <input type="name" class="form-control" id="cv" placeholder="CV">
               </div>
               <div class="col-sx-12 col-sm-12 col-md-5">
-                <button type="button" class="btn btn-primary">SUBIR</button>
+                <button type="button" class="btn btn-primary subida">SUBIR</button>
               </div>
             </div>
             <div class="form-group">
               <div class="col-sx-12 col-sm-12 col-md-10">
-                <textarea class="form-control" id="comment" rows="7" placeholder="Comentarios"></textarea>
+                <textarea class="form-control" name="comentario" id="comment" rows="7" placeholder="Comentarios" required="Completa campo"></textarea>
               </div>
             </div>
             <div class="form-group">
@@ -99,6 +100,7 @@
     
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script> 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 
   </body>
 </html>
