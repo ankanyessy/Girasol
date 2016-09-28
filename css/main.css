@@ -32,7 +32,7 @@ h5 {
 }
 
 button {
-	width: 80px;
+	width: 100px;
 }
 
 button a {
@@ -322,9 +322,11 @@ nav .navbar {
 .bg-plome .equipo-grupo {
 	width: 100%;
 	float: left;
-	padding: 15px 30px;
 	background-size: 100% 100%;
-	margin: 5px;
+}
+
+.bg-plome .equipo-grupo .equipo {
+	margin-left: 0;
 }
 
 .equipo .imagen-equipo img {
@@ -335,22 +337,24 @@ nav .navbar {
 
 .bg-plome .equipo-grupo .equipo .cargo {
 	background: #fff;
-	margin: -20px 50px 30px 30px;
-	width: 100%;
-	padding: 15px;
+	margin: -20px 0 0 0;
+	width: 85%;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	text-align: center;
 }
 
 .equipo .cargo h5 {
 	color: #999999;
 	font-family: Helvetica;
+	font-size: 15px;
 }
 
 .equipo .cargo h4 a {
 	text-decoration: none;
 	color: #43C0CA;
+	font-size: 15px;
 }
 
 
