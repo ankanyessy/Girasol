@@ -162,7 +162,7 @@ nav .navbar {
 }
 
 .empresa .e2biz .parrafo {
-	margin: 0 15%;
+	margin: 0 12%;
 }
 
 
@@ -440,12 +440,13 @@ nav .navbar {
 	margin: 15% 0;
 }
 
-.titulo-project .fondo .procli,  {
-	margin-top: -17px;
+.titulo-project .fondo .procli {
+	margin-top: 23px;
 }
 
 .titulo-project .fondo .procli h5 {
 	font-size: 20px;
+	color: black;
 }
 
 .proyecto {
@@ -492,8 +493,43 @@ nav .navbar {
 .pagination .pagination-list {
 	width: 100%;
 	margin: 0 5%;
+}
+
+
+/*ocultar proyecto*/
+
+.ocultar {
+	visibility: hidden;
 
 }
+
+.ocultar .clientela .detalle-clientes {
+	margin-top: 20px;
+}
+
+.ocultar .clientela .detalle-clientes h2 {
+	margin: 0;
+}
+
+.carrusel {
+	margin: 0 4%;
+	
+}
+
+.carrusel .item img {
+	width: 100%;
+	height: 350px;
+}
+
+.ocultar .clientela .detalle-clientes .info-clientes {
+	margin: 6%;
+}
+
+.ocultar .clientela .detalle-clientes .info-clientes p {
+
+}
+
+
 
 
 
