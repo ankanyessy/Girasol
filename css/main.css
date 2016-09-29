@@ -103,6 +103,7 @@ nav .navbar {
 
 .navbar .collapse .navbar-header ul li a {
 	font-size: 26px;
+	color: black;
 }
 
 @media screen and (width: :800px){
@@ -271,6 +272,10 @@ nav .navbar {
 	height: 500px;
 }
 
+.e2biz2 h2 {
+	top: -20px;
+}
+
 .seguir {
 	background-color: #188DCA;
 	color: #fff;
@@ -341,7 +346,7 @@ nav .navbar {
 }
 
 .bg-plome .equipo-grupo .equipo .cargo {
-	background: #fff;
+	background: white;
 	margin: -20px 0 0 0;
 	width: 85%;
 	-webkit-box-sizing: border-box;
@@ -524,11 +529,6 @@ nav .navbar {
 .ocultar .clientela .detalle-clientes .info-clientes {
 	margin: 6%;
 }
-
-.ocultar .clientela .detalle-clientes .info-clientes p {
-
-}
-
 
 
 
